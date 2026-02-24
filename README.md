@@ -26,6 +26,8 @@ The dataset follows a Google Analytics 4 (GA4)-style structure and includes:
 - Funnel analysis indicates a healthy purchase journey with no critical bottlenecks
 
 ## Project Structure
+
+.
 ├── analysis.py
 ├── requirements.txt
 ├── README.md
