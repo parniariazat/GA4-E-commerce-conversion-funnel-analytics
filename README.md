@@ -27,6 +27,8 @@ The dataset follows a Google Analytics 4 (GA4)-style structure and includes:
 
 ## Project Structure
 ```
+GA4-E-commerce-conversion-funnel-analysis/
+│
 ├── analysis.py
 ├── requirements.txt
 ├── README.md
