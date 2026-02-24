@@ -25,13 +25,19 @@ The dataset follows a Google Analytics 4 (GA4)-style structure and includes:
 - Desktop and mobile users exhibit comparable conversion performance, with a trade-off between conversion frequency and transaction value
 - Funnel analysis indicates a healthy purchase journey with no critical bottlenecks
 
-## Files
-- `analysis.py`: Data processing and analysis code
-- `data/`: GA4-style e-commerce dataset
-- `figures/`: Visualization outputs
-- `consumer_behaviour_analysis_report.pdf`: Full analytical report
-- `requirements.txt`: required tools
-- `README.md`
+## Project Structure
+├── analysis.py
+├── requirements.txt
+├── README.md
+├── data/
+│   ├── sessions.csv
+│   ├── events.csv
+│   └── transactions.csv
+└── figures/
+    ├── conversion_rate_by_traffic_source.png
+    ├── conversion_rate_by_device.png
+    ├── revenue_per_session_by_traffic_source.png
+    └── revenue_per_session_by_device.png
 
 ## Tools
 - Python
